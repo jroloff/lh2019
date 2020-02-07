@@ -1,0 +1,132 @@
+# BEGIN PLOT
+LegendOnly=/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesCalo_tune.yoda/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/JSSSoftDrop_tune.yoda/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/ATLAS_tune.yoda/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/Lund_Plane_tune.yoda/SoftDropMass/d01-x01-y01
+DrawOnly=/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesCalo_tune.yoda/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/JSSSoftDrop_tune.yoda/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/ATLAS_tune.yoda/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/Lund_Plane_tune.yoda/SoftDropMass/d01-x01-y01
+Title=Dijet selection, Soft Drop $\beta$ = 0.0, $z_{cut}$ = 0.1
+RatioPlotReference=/SoftDropMass/d01-x01-y01
+RatioPlot=1
+LogY=1
+XLabel=$\mathrm{log}_{10}[(m^{\mathrm{soft drop}}/p_{T}^{\mathrm{ungroomed}})^2]$
+YLabel=(1/$\sigma_{\mathrm{resum}}$) d$\sigma$/d $\mathrm{log}_{10}[(m^{\mathrm{soft drop}}/p_{T}^{\mathrm{ungroomed}})^2]$
+Legend=1
+# END PLOT
+
+# BEGIN HISTO1D /SoftDropMass/d01-x01-y01
+ConnectBins=0
+ErrorBars=1
+IsRef=1
+Path=/SoftDropMass/d01-x01-y01
+PolyMarker=*
+Title=Data
+# xlow	 xhigh	 val	 errminus	 errplus
+-4.500000e+00	-4.100000e+00	2.496700e-01	4.949983e-02	4.949983e-02
+-4.100000e+00	-3.700000e+00	2.249090e-01	3.242082e-02	3.242082e-02
+-3.700000e+00	-3.300000e+00	1.907320e-01	1.248048e-02	1.248048e-02
+-3.300000e+00	-2.900000e+00	1.867600e-01	6.078373e-03	6.078373e-03
+-2.900000e+00	-2.500000e+00	2.059060e-01	4.913931e-03	4.913931e-03
+-2.500000e+00	-2.100000e+00	2.330250e-01	4.501570e-03	4.501570e-03
+-2.100000e+00	-1.700000e+00	2.616520e-01	1.192581e-02	1.192581e-02
+-1.700000e+00	-1.300000e+00	2.994180e-01	1.687182e-02	1.687182e-02
+-1.300000e+00	-9.000000e-01	3.176000e-01	1.416690e-02	1.416690e-02
+-9.000000e-01	-5.000000e-01	8.091020e-02	4.490129e-03	4.490129e-03
+# END HISTO1D
+
+
+# BEGIN HISTO1D //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/SoftDropMass/d01-x01-y01
+LineColor=red
+LineStyle=solid
+Path=//Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/SoftDropMass/d01-x01-y01
+ScaledBy=1.24455507156191700e-05
+Title=SD Mass
+# xlow	 xhigh	 val	 errminus	 errplus
+-4.500000e+00	-4.100000e+00	2.484443e-01	2.780299e-03	2.780299e-03
+-4.100000e+00	-3.700000e+00	2.269757e-01	2.657460e-03	2.657460e-03
+-3.700000e+00	-3.300000e+00	1.943373e-01	2.458981e-03	2.458981e-03
+-3.300000e+00	-2.900000e+00	1.928127e-01	2.449316e-03	2.449316e-03
+-2.900000e+00	-2.500000e+00	2.122278e-01	2.569675e-03	2.569675e-03
+-2.500000e+00	-2.100000e+00	2.393902e-01	2.729168e-03	2.729168e-03
+-2.100000e+00	-1.700000e+00	2.582452e-01	2.834609e-03	2.834609e-03
+-1.700000e+00	-1.300000e+00	2.901370e-01	3.004543e-03	3.004543e-03
+-1.300000e+00	-9.000000e-01	3.130990e-01	3.121174e-03	3.121174e-03
+-9.000000e-01	-5.000000e-01	9.250155e-02	1.696491e-03	1.696491e-03
+# END HISTO1D
+
+
+# BEGIN HISTO1D //Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesCalo_tune.yoda/SoftDropMass/d01-x01-y01
+LineColor=blue
+LineStyle=solid
+Path=//Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesCalo_tune.yoda/SoftDropMass/d01-x01-y01
+ScaledBy=1.17484653567127828e-05
+Title=SD Obs
+# xlow	 xhigh	 val	 errminus	 errplus
+-4.500000e+00	-4.100000e+00	2.272447e-01	2.583494e-03	2.583494e-03
+-4.100000e+00	-3.700000e+00	2.173466e-01	2.526603e-03	2.526603e-03
+-3.700000e+00	-3.300000e+00	1.931154e-01	2.381601e-03	2.381601e-03
+-3.300000e+00	-2.900000e+00	1.872412e-01	2.345099e-03	2.345099e-03
+-2.900000e+00	-2.500000e+00	2.045995e-01	2.451393e-03	2.451393e-03
+-2.500000e+00	-2.100000e+00	2.325021e-01	2.613208e-03	2.613208e-03
+-2.100000e+00	-1.700000e+00	2.595530e-01	2.761046e-03	2.761046e-03
+-1.700000e+00	-1.300000e+00	3.033455e-01	2.984896e-03	2.984896e-03
+-1.300000e+00	-9.000000e-01	3.293975e-01	3.110433e-03	3.110433e-03
+-9.000000e-01	-5.000000e-01	1.027403e-01	1.737125e-03	1.737125e-03
+# END HISTO1D
+
+
+# BEGIN HISTO1D //Users/jenniferroloff/Work/tuningStudies/JSSSoftDrop_tune.yoda/SoftDropMass/d01-x01-y01
+LineColor=green
+LineStyle=solid
+Path=//Users/jenniferroloff/Work/tuningStudies/JSSSoftDrop_tune.yoda/SoftDropMass/d01-x01-y01
+ScaledBy=1.23460600635822139e-05
+Title=JSS Obs
+# xlow	 xhigh	 val	 errminus	 errplus
+-4.500000e+00	-4.100000e+00	2.431865e-01	2.739706e-03	2.739706e-03
+-4.100000e+00	-3.700000e+00	2.239884e-01	2.629342e-03	2.629342e-03
+-3.700000e+00	-3.300000e+00	1.960554e-01	2.459935e-03	2.459935e-03
+-3.300000e+00	-2.900000e+00	1.902528e-01	2.423258e-03	2.423258e-03
+-2.900000e+00	-2.500000e+00	2.159326e-01	2.581626e-03	2.581626e-03
+-2.500000e+00	-2.100000e+00	2.382481e-01	2.711745e-03	2.711745e-03
+-2.100000e+00	-1.700000e+00	2.568907e-01	2.815842e-03	2.815842e-03
+-1.700000e+00	-1.300000e+00	2.889288e-01	2.986273e-03	2.986273e-03
+-1.300000e+00	-9.000000e-01	3.045773e-01	3.066076e-03	3.066076e-03
+-9.000000e-01	-5.000000e-01	8.830520e-02	1.650925e-03	1.650925e-03
+# END HISTO1D
+
+
+# BEGIN HISTO1D //Users/jenniferroloff/Work/tuningStudies/ATLAS_tune.yoda/SoftDropMass/d01-x01-y01
+LineColor=orange
+LineStyle=solid
+Path=//Users/jenniferroloff/Work/tuningStudies/ATLAS_tune.yoda/SoftDropMass/d01-x01-y01
+ScaledBy=1.29634430904848379e-05
+Title=ATLAS
+# xlow	 xhigh	 val	 errminus	 errplus
+-4.500000e+00	-4.100000e+00	2.661070e-01	2.936692e-03	2.936692e-03
+-4.100000e+00	-3.700000e+00	2.366801e-01	2.769561e-03	2.769561e-03
+-3.700000e+00	-3.300000e+00	2.000259e-01	2.546088e-03	2.546088e-03
+-3.300000e+00	-2.900000e+00	1.994102e-01	2.542166e-03	2.542166e-03
+-2.900000e+00	-2.500000e+00	2.169432e-01	2.651570e-03	2.651570e-03
+-2.500000e+00	-2.100000e+00	2.381709e-01	2.778271e-03	2.778271e-03
+-2.100000e+00	-1.700000e+00	2.603707e-01	2.904868e-03	2.904868e-03
+-1.700000e+00	-1.300000e+00	2.845153e-01	3.036567e-03	3.036567e-03
+-1.300000e+00	-9.000000e-01	3.017242e-01	3.127052e-03	3.127052e-03
+-9.000000e-01	-5.000000e-01	8.555873e-02	1.665184e-03	1.665184e-03
+# END HISTO1D
+
+
+# BEGIN HISTO1D //Users/jenniferroloff/Work/tuningStudies/Lund_Plane_tune.yoda/SoftDropMass/d01-x01-y01
+LineColor=lilac
+LineStyle=solid
+Path=//Users/jenniferroloff/Work/tuningStudies/Lund_Plane_tune.yoda/SoftDropMass/d01-x01-y01
+ScaledBy=1.26662444585180547e-05
+Title=Lund
+# xlow	 xhigh	 val	 errminus	 errplus
+-4.500000e+00	-4.100000e+00	2.441102e-01	2.780270e-03	2.780270e-03
+-4.100000e+00	-3.700000e+00	2.267258e-01	2.679443e-03	2.679443e-03
+-3.700000e+00	-3.300000e+00	1.967068e-01	2.495764e-03	2.495764e-03
+-3.300000e+00	-2.900000e+00	1.907853e-01	2.457912e-03	2.457912e-03
+-2.900000e+00	-2.500000e+00	2.084864e-01	2.569407e-03	2.569407e-03
+-2.500000e+00	-2.100000e+00	2.420836e-01	2.768705e-03	2.768705e-03
+-2.100000e+00	-1.700000e+00	2.572197e-01	2.853948e-03	2.853948e-03
+-1.700000e+00	-1.300000e+00	2.922103e-01	3.041878e-03	3.041878e-03
+-1.300000e+00	-9.000000e-01	3.145345e-01	3.155935e-03	3.155935e-03
+-9.000000e-01	-5.000000e-01	9.278025e-02	1.714043e-03	1.714043e-03
+# END HISTO1D
+
