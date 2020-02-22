@@ -1,6 +1,6 @@
 # BEGIN PLOT
-LegendOnly=/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassPtBin_tune.yoda/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesMass_tune.yoda/SoftDropMass/d01-x01-y01
-DrawOnly=/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassPtBin_tune.yoda/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesMass_tune.yoda/SoftDropMass/d01-x01-y01
+LegendOnly=/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassPtBin_tune.yoda/SoftDropMass/d01-x01-y01
+DrawOnly=/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/SoftDropMass/d01-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassPtBin_tune.yoda/SoftDropMass/d01-x01-y01
 Title=Dijet selection, Soft Drop $\beta$ = 0.0, $z_{cut}$ = 0.1
 RatioPlotReference=/SoftDropMass/d01-x01-y01
 RatioPlot=1
@@ -35,19 +35,19 @@ Title=Data
 LineColor=red
 LineStyle=solid
 Path=//Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/SoftDropMass/d01-x01-y01
-ScaledBy=6.05418495535038888e-05
+ScaledBy=1.24455507156191700e-05
 Title=Mass only, incl. pT
 # xlow	 xhigh	 val	 errminus	 errplus
--4.500000e+00	-4.100000e+00	2.429242e-01	6.063637e-03	6.063637e-03
--4.100000e+00	-3.700000e+00	2.247616e-01	5.832556e-03	5.832556e-03
--3.700000e+00	-3.300000e+00	1.843499e-01	5.282254e-03	5.282254e-03
--3.300000e+00	-2.900000e+00	1.891933e-01	5.351194e-03	5.351194e-03
--2.900000e+00	-2.500000e+00	2.135614e-01	5.685376e-03	5.685376e-03
--2.500000e+00	-2.100000e+00	2.409566e-01	6.039030e-03	6.039030e-03
--2.100000e+00	-1.700000e+00	2.565460e-01	6.231327e-03	6.231327e-03
--1.700000e+00	-1.300000e+00	2.889360e-01	6.613002e-03	6.613002e-03
--1.300000e+00	-9.000000e-01	3.084608e-01	6.832785e-03	6.832785e-03
--9.000000e-01	-5.000000e-01	9.383987e-02	3.768700e-03	3.768700e-03
+-4.500000e+00	-4.100000e+00	2.484443e-01	2.780299e-03	2.780299e-03
+-4.100000e+00	-3.700000e+00	2.269757e-01	2.657460e-03	2.657460e-03
+-3.700000e+00	-3.300000e+00	1.943373e-01	2.458981e-03	2.458981e-03
+-3.300000e+00	-2.900000e+00	1.928127e-01	2.449316e-03	2.449316e-03
+-2.900000e+00	-2.500000e+00	2.122278e-01	2.569675e-03	2.569675e-03
+-2.500000e+00	-2.100000e+00	2.393902e-01	2.729168e-03	2.729168e-03
+-2.100000e+00	-1.700000e+00	2.582452e-01	2.834609e-03	2.834609e-03
+-1.700000e+00	-1.300000e+00	2.901370e-01	3.004543e-03	3.004543e-03
+-1.300000e+00	-9.000000e-01	3.130990e-01	3.121174e-03	3.121174e-03
+-9.000000e-01	-5.000000e-01	9.250155e-02	1.696491e-03	1.696491e-03
 # END HISTO1D
 
 
@@ -68,25 +68,5 @@ Title=Mass only, pt binned
 -1.700000e+00	-1.300000e+00	2.885308e-01	6.719108e-03	6.719108e-03
 -1.300000e+00	-9.000000e-01	3.043342e-01	6.900666e-03	6.900666e-03
 -9.000000e-01	-5.000000e-01	9.575965e-02	3.870855e-03	3.870855e-03
-# END HISTO1D
-
-
-# BEGIN HISTO1D //Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesMass_tune.yoda/SoftDropMass/d01-x01-y01
-LineColor=green
-LineStyle=solid
-Path=//Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesMass_tune.yoda/SoftDropMass/d01-x01-y01
-ScaledBy=5.92066311426880072e-05
-Title=Mass only, incl. pt (pt>300)
-# xlow	 xhigh	 val	 errminus	 errplus
--4.500000e+00	-4.100000e+00	2.360864e-01	5.911405e-03	5.911405e-03
--4.100000e+00	-3.700000e+00	2.121078e-01	5.603165e-03	5.603165e-03
--3.700000e+00	-3.300000e+00	1.956779e-01	5.381782e-03	5.381782e-03
--3.300000e+00	-2.900000e+00	1.828005e-01	5.201682e-03	5.201682e-03
--2.900000e+00	-2.500000e+00	2.126998e-01	5.610980e-03	5.610980e-03
--2.500000e+00	-2.100000e+00	2.388988e-01	5.946509e-03	5.946509e-03
--2.100000e+00	-1.700000e+00	2.494079e-01	6.075896e-03	6.075896e-03
--1.700000e+00	-1.300000e+00	2.989935e-01	6.652518e-03	6.652518e-03
--1.300000e+00	-9.000000e-01	3.349615e-01	7.041296e-03	7.041296e-03
--9.000000e-01	-5.000000e-01	9.428655e-02	3.735770e-03	3.735770e-03
 # END HISTO1D
 

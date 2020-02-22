@@ -4,11 +4,11 @@ YTwosidedTicks=1
 RatioPlotReference=/ATLAS_2018_I1711114/d04-x01-y01
 RatioPlot=1
 LogY=0
-LegendOnly=/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesCalo_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/JSSSoftDrop_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/ATLAS_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/Lund_Plane_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01
+LegendOnly=/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/JSS_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/monash_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/ATLAS_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01
 XLabel=$\log(m_\text{bb} / p_\text{T})$
 LegendAlign=r
 YLabel=$(1/\sigma) \text{d}\sigma / \text{d}\log(m_\text{bb} / p_\text{T})$
-DrawOnly=/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesCalo_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/JSSSoftDrop_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/ATLAS_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/Lund_Plane_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01
+DrawOnly=/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/JSS_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/monash_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/ATLAS_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01
 Legend=1
 # END PLOT
 
@@ -33,7 +33,7 @@ LineColor=red
 LineStyle=solid
 Path=//Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01
 ScaledBy=6.56167979002624663e-04
-Title=SD Mass
+Title=Mass only, incl. pT
 # xlow	 xhigh	 val	 errminus	 errplus
 -3.000000e+00	-2.200000e+00	2.132546e-01	1.322549e-02	1.322549e-02
 -2.200000e+00	-1.900000e+00	8.311460e-01	4.263689e-02	4.263689e-02
@@ -43,33 +43,33 @@ Title=SD Mass
 # END HISTO1D
 
 
-# BEGIN HISTO1D //Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesCalo_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01
+# BEGIN HISTO1D //Users/jenniferroloff/Work/tuningStudies/JSS_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01
 LineColor=blue
 LineStyle=solid
-Path=//Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesCalo_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01
-ScaledBy=5.60852495793606287e-04
-Title=SD Obs
+Path=//Users/jenniferroloff/Work/tuningStudies/JSS_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01
+ScaledBy=7.04225352112676072e-03
+Title=JSS Obs.
 # xlow	 xhigh	 val	 errminus	 errplus
--3.000000e+00	-2.200000e+00	1.787718e-01	1.119512e-02	1.119512e-02
--2.200000e+00	-1.900000e+00	9.366237e-01	4.184526e-02	4.184526e-02
--1.900000e+00	-1.500000e+00	7.319125e-01	3.203494e-02	3.203494e-02
--1.500000e+00	-1.100000e+00	4.360628e-01	2.472685e-02	2.472685e-02
--1.100000e+00	0.000000e+00	9.891400e-02	7.101610e-03	7.101610e-03
+-3.000000e+00	-2.200000e+00	1.936620e-01	4.128886e-02	4.128886e-02
+-2.200000e+00	-1.900000e+00	5.868543e-01	1.173709e-01	1.173709e-01
+-1.900000e+00	-1.500000e+00	9.859155e-01	1.317485e-01	1.317485e-01
+-1.500000e+00	-1.100000e+00	4.577465e-01	8.977148e-02	8.977148e-02
+-1.100000e+00	0.000000e+00	8.322664e-02	2.308292e-02	2.308292e-02
 # END HISTO1D
 
 
-# BEGIN HISTO1D //Users/jenniferroloff/Work/tuningStudies/JSSSoftDrop_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01
+# BEGIN HISTO1D //Users/jenniferroloff/Work/tuningStudies/monash_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01
 LineColor=green
 LineStyle=solid
-Path=//Users/jenniferroloff/Work/tuningStudies/JSSSoftDrop_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01
-ScaledBy=6.44329896907216483e-04
-Title=JSS Obs
+Path=//Users/jenniferroloff/Work/tuningStudies/monash_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01
+ScaledBy=1.26903553299492376e-03
+Title=Monash
 # xlow	 xhigh	 val	 errminus	 errplus
--3.000000e+00	-2.200000e+00	2.021585e-01	1.276013e-02	1.276013e-02
--2.200000e+00	-1.900000e+00	9.170963e-01	4.438140e-02	4.438140e-02
--1.900000e+00	-1.500000e+00	6.974870e-01	3.351909e-02	3.351909e-02
--1.500000e+00	-1.100000e+00	4.687500e-01	2.747862e-02	2.747862e-02
--1.100000e+00	0.000000e+00	8.786316e-02	7.173997e-03	7.173997e-03
+-3.000000e+00	-2.200000e+00	1.903554e-01	1.737698e-02	1.737698e-02
+-2.200000e+00	-1.900000e+00	9.179357e-01	6.231354e-02	6.231354e-02
+-1.900000e+00	-1.500000e+00	7.328680e-01	4.821917e-02	4.821917e-02
+-1.500000e+00	-1.100000e+00	4.758883e-01	3.885612e-02	3.885612e-02
+-1.100000e+00	0.000000e+00	8.075681e-02	9.652285e-03	9.652285e-03
 # END HISTO1D
 
 
@@ -85,20 +85,5 @@ Title=ATLAS
 -1.900000e+00	-1.500000e+00	6.947298e-01	3.447885e-02	3.447885e-02
 -1.500000e+00	-1.100000e+00	4.637235e-01	2.816920e-02	2.816920e-02
 -1.100000e+00	0.000000e+00	9.395809e-02	7.646199e-03	7.646199e-03
-# END HISTO1D
-
-
-# BEGIN HISTO1D //Users/jenniferroloff/Work/tuningStudies/Lund_Plane_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01
-LineColor=lilac
-LineStyle=solid
-Path=//Users/jenniferroloff/Work/tuningStudies/Lund_Plane_tune.yoda/ATLAS_2018_I1711114/d04-x01-y01
-ScaledBy=6.12369871402327010e-04
-Title=Lund
-# xlow	 xhigh	 val	 errminus	 errplus
--3.000000e+00	-2.200000e+00	1.959584e-01	1.224740e-02	1.224740e-02
--2.200000e+00	-1.900000e+00	8.961013e-01	4.276858e-02	4.276858e-02
--1.900000e+00	-1.500000e+00	7.134110e-01	3.304812e-02	3.304812e-02
--1.500000e+00	-1.100000e+00	4.470300e-01	2.616045e-02	2.616045e-02
--1.100000e+00	0.000000e+00	1.002060e-01	7.468912e-03	7.468912e-03
 # END HISTO1D
 

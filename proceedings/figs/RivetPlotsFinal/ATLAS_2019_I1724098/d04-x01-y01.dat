@@ -5,11 +5,11 @@ Title=Dijet selection, trimmed
 RatioPlotReference=/ATLAS_2019_I1724098/d04-x01-y01
 RatioPlot=1
 LogY=0
-LegendOnly=/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesCalo_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/JSSSoftDrop_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/ATLAS_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/Lund_Plane_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01
+LegendOnly=/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/JSS_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/monash_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/ATLAS_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01
 XLabel=LHA
 LegendAlign=r
 YLabel=$\dfrac{1}{\sigma} \; \dfrac{\text{d}\sigma}{\text{d LHA}}$
-DrawOnly=/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesCalo_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/JSSSoftDrop_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/ATLAS_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/Lund_Plane_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01
+DrawOnly=/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/JSS_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/monash_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01 //Users/jenniferroloff/Work/tuningStudies/ATLAS_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01
 Legend=1
 LeftMargin=1.8
 # END PLOT
@@ -34,7 +34,7 @@ LineColor=red
 LineStyle=solid
 Path=//Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01
 ScaledBy=4.27902677814957794e-06
-Title=SD Mass
+Title=Mass only, incl. pT
 # xlow	 xhigh	 val	 errminus	 errplus
 0.000000e+00	5.808000e-01	3.442082e-02	5.035816e-04	5.035816e-04
 5.808000e-01	1.355200e+00	4.596472e-01	1.593684e-03	1.593684e-03
@@ -43,31 +43,31 @@ Title=SD Mass
 # END HISTO1D
 
 
-# BEGIN HISTO1D //Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesCalo_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01
+# BEGIN HISTO1D //Users/jenniferroloff/Work/tuningStudies/JSS_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01
 LineColor=blue
 LineStyle=solid
-Path=//Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesCalo_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01
-ScaledBy=4.15845372056854367e-06
-Title=SD Obs
+Path=//Users/jenniferroloff/Work/tuningStudies/JSS_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01
+ScaledBy=4.15489446568057170e-05
+Title=JSS Obs.
 # xlow	 xhigh	 val	 errminus	 errplus
-0.000000e+00	5.808000e-01	3.209055e-02	4.793373e-04	4.793373e-04
-5.808000e-01	1.355200e+00	4.559747e-01	1.564781e-03	1.564781e-03
-1.355200e+00	1.936000e+00	8.282397e-01	2.435177e-03	2.435177e-03
-1.936000e+00	4.840000e+00	4.992008e-02	2.673654e-04	2.673654e-04
+0.000000e+00	5.808000e-01	3.505334e-02	1.583549e-03	1.583549e-03
+5.808000e-01	1.355200e+00	4.628115e-01	4.983097e-03	4.983097e-03
+1.355200e+00	1.936000e+00	8.165284e-01	7.642798e-03	7.642798e-03
+1.936000e+00	4.840000e+00	4.970420e-02	8.432926e-04	8.432926e-04
 # END HISTO1D
 
 
-# BEGIN HISTO1D //Users/jenniferroloff/Work/tuningStudies/JSSSoftDrop_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01
+# BEGIN HISTO1D //Users/jenniferroloff/Work/tuningStudies/monash_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01
 LineColor=green
 LineStyle=solid
-Path=//Users/jenniferroloff/Work/tuningStudies/JSSSoftDrop_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01
-ScaledBy=4.27900846815775887e-06
-Title=JSS Obs
+Path=//Users/jenniferroloff/Work/tuningStudies/monash_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01
+ScaledBy=8.65913322076460101e-06
+Title=Monash
 # xlow	 xhigh	 val	 errminus	 errplus
-0.000000e+00	5.808000e-01	3.321978e-02	4.947168e-04	4.947168e-04
-5.808000e-01	1.355200e+00	4.555232e-01	1.586515e-03	1.586515e-03
-1.355200e+00	1.936000e+00	8.238344e-01	2.463646e-03	2.463646e-03
-1.936000e+00	4.840000e+00	5.052441e-02	2.728500e-04	2.728500e-04
+0.000000e+00	5.808000e-01	2.938559e-02	6.618980e-04	6.618980e-04
+5.808000e-01	1.355200e+00	4.466543e-01	2.234809e-03	2.234809e-03
+1.355200e+00	1.936000e+00	8.347684e-01	3.527824e-03	3.527824e-03
+1.936000e+00	4.840000e+00	5.158506e-02	3.921939e-04	3.921939e-04
 # END HISTO1D
 
 
@@ -82,19 +82,5 @@ Title=ATLAS
 5.808000e-01	1.355200e+00	4.622399e-01	1.598107e-03	1.598107e-03
 1.355200e+00	1.936000e+00	8.130079e-01	2.447310e-03	2.447310e-03
 1.936000e+00	4.840000e+00	4.965124e-02	2.704715e-04	2.704715e-04
-# END HISTO1D
-
-
-# BEGIN HISTO1D //Users/jenniferroloff/Work/tuningStudies/Lund_Plane_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01
-LineColor=lilac
-LineStyle=solid
-Path=//Users/jenniferroloff/Work/tuningStudies/Lund_Plane_tune.yoda/ATLAS_2019_I1724098/d04-x01-y01
-ScaledBy=4.25542779815654883e-06
-Title=Lund
-# xlow	 xhigh	 val	 errminus	 errplus
-0.000000e+00	5.808000e-01	3.694192e-02	5.202571e-04	5.202571e-04
-5.808000e-01	1.355200e+00	4.596840e-01	1.589347e-03	1.589347e-03
-1.355200e+00	1.936000e+00	8.187815e-01	2.449302e-03	2.449302e-03
-1.936000e+00	4.840000e+00	4.970820e-02	2.698903e-04	2.698903e-04
 # END HISTO1D
 

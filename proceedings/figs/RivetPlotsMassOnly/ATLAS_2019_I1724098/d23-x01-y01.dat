@@ -5,12 +5,12 @@ Title=Dijet selection, soft-dropped
 RatioPlotReference=/ATLAS_2019_I1724098/d23-x01-y01
 RatioPlot=1
 LogY=0
-LegendOnly=/ATLAS_2019_I1724098/d23-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/ATLAS_2019_I1724098/d23-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassPtBin_tune.yoda/ATLAS_2019_I1724098/d23-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesMass_tune.yoda/ATLAS_2019_I1724098/d23-x01-y01
+LegendOnly=/ATLAS_2019_I1724098/d23-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/ATLAS_2019_I1724098/d23-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassPtBin_tune.yoda/ATLAS_2019_I1724098/d23-x01-y01
 XLabel=Nsubjets
 LegendAlign=r
 XMinorTickMarks=0
 YLabel=$\dfrac{1}{\sigma} \; \dfrac{\text{d}\sigma}{\text{d Nsubjets}}$
-DrawOnly=/ATLAS_2019_I1724098/d23-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/ATLAS_2019_I1724098/d23-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassPtBin_tune.yoda/ATLAS_2019_I1724098/d23-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesMass_tune.yoda/ATLAS_2019_I1724098/d23-x01-y01
+DrawOnly=/ATLAS_2019_I1724098/d23-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/ATLAS_2019_I1724098/d23-x01-y01 //Users/jenniferroloff/Work/tuningStudies/SoftDropMassPtBin_tune.yoda/ATLAS_2019_I1724098/d23-x01-y01
 Legend=1
 LeftMargin=1.8
 # END PLOT
@@ -34,13 +34,13 @@ Title=Data
 LineColor=red
 LineStyle=solid
 Path=//Users/jenniferroloff/Work/tuningStudies/SoftDropMassInclPt_tune.yoda/ATLAS_2019_I1724098/d23-x01-y01
-ScaledBy=2.13867145729073100e-05
+ScaledBy=4.27902677814957794e-06
 Title=Mass only, incl. pT
 # xlow	 xhigh	 val	 errminus	 errplus
-5.000000e-01	1.500000e+00	5.729073e-01	3.500373e-03	3.500373e-03
-1.500000e+00	2.500000e+00	2.941956e-01	2.508362e-03	2.508362e-03
-2.500000e+00	3.500000e+00	1.008384e-01	1.468537e-03	1.468537e-03
-3.500000e+00	6.500000e+00	1.065771e-02	2.756407e-04	2.756407e-04
+5.000000e-01	1.500000e+00	5.727349e-01	1.565487e-03	1.565487e-03
+1.500000e+00	2.500000e+00	2.933358e-01	1.120354e-03	1.120354e-03
+2.500000e+00	3.500000e+00	1.011391e-01	6.578577e-04	6.578577e-04
+3.500000e+00	6.500000e+00	1.087729e-02	1.245582e-04	1.245582e-04
 # END HISTO1D
 
 
@@ -55,19 +55,5 @@ Title=Mass only, pt binned
 1.500000e+00	2.500000e+00	2.929302e-01	2.508170e-03	2.508170e-03
 2.500000e+00	3.500000e+00	1.009149e-01	1.472151e-03	1.472151e-03
 3.500000e+00	6.500000e+00	1.082381e-02	2.783584e-04	2.783584e-04
-# END HISTO1D
-
-
-# BEGIN HISTO1D //Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesMass_tune.yoda/ATLAS_2019_I1724098/d23-x01-y01
-LineColor=green
-LineStyle=solid
-Path=//Users/jenniferroloff/Work/tuningStudies/SoftDropObservablesMass_tune.yoda/ATLAS_2019_I1724098/d23-x01-y01
-ScaledBy=2.09091289256889546e-05
-Title=Mass only, incl. pt (pt>300)
-# xlow	 xhigh	 val	 errminus	 errplus
-5.000000e-01	1.500000e+00	5.534646e-01	3.401832e-03	3.401832e-03
-1.500000e+00	2.500000e+00	3.012587e-01	2.509792e-03	2.509792e-03
-2.500000e+00	3.500000e+00	1.077657e-01	1.501095e-03	1.501095e-03
-3.500000e+00	6.500000e+00	1.242699e-02	2.943001e-04	2.943001e-04
 # END HISTO1D
 
